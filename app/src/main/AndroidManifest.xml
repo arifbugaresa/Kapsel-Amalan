@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".TasbihActivity" />
         <activity android:name=".ZikirpagiActivity" />
-        <activity android:name=".ZikirpetangActivity"></activity>
+        <activity android:name=".ZikirpetangActivity" />
+        <activity android:name=".ZikirsebelumtidurActivity"></activity>
     </application>
 
 </manifest>
