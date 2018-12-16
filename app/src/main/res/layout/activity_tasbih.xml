@@ -6,11 +6,38 @@
     android:layout_height="match_parent"
     tools:context="com.example.arip.amalan.TasbihActivity">
 
+    <RelativeLayout
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="-11dp">
+
+        <ImageButton
+            android:id="@+id/ibTambahTasbih"
+            android:layout_width="310dp"
+            android:layout_height="365dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="168dp"
+            app:srcCompat="@drawable/ic_launcher_foreground"
+            tools:layout_editor_absoluteX="50dp"
+            tools:layout_editor_absoluteY="185dp" />
+    </RelativeLayout>
+
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/tvTasbih"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ini bagian Tasbih"
-        tools:layout_editor_absoluteX="177dp"
-        tools:layout_editor_absoluteY="226dp" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/ibTambahTasbih"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:text="0"
+        android:textSize="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </android.support.constraint.ConstraintLayout>
