@@ -10,7 +10,9 @@ public class HomeActivity extends AppCompatActivity {
 
     //deklaraasi tombol
     private ImageButton pindahTasbih;
-    private ImageButton pindahZikir;
+    private ImageButton pindahZikirPagi;
+    private ImageButton pindahzikirpetang;
+    private ImageButton pindahzikirsebelumtidur;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +21,8 @@ public class HomeActivity extends AppCompatActivity {
 
         //inisialisasi Imagetombol
         pindahTasbih = (ImageButton)findViewById(R.id.ibTasbih);
-        pindahZikir = (ImageButton)findViewById(R.id.ibZikirpagi);
+        pindahZikirPagi = (ImageButton)findViewById(R.id.ibZikirpagi);
+        pindahzikirpetang= (ImageButton)findViewById(R.id.ibZikirpetang);
 
         //fungsi Imagetombol
         pindahTasbih.setOnClickListener(new View.OnClickListener()
@@ -28,6 +31,27 @@ public class HomeActivity extends AppCompatActivity {
             public void onClick(View v)
             {
                 Intent intent = new Intent(getApplicationContext(), TasbihActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        //fungsi Imagetombol
+        pindahZikirPagi.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent(getApplicationContext(), ZikirpagiActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        pindahzikirpetang.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent(getApplicationContext(), ZikirpetangActivity.class);
                 startActivity(intent);
             }
         });
