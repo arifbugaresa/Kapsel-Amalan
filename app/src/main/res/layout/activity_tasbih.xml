@@ -22,6 +22,16 @@
             app:srcCompat="@drawable/ic_launcher_foreground"
             tools:layout_editor_absoluteX="50dp"
             tools:layout_editor_absoluteY="185dp" />
+
+        <TextView
+            android:id="@+id/tvTasbihkelipatan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:text="0"
+            android:textSize="20dp"/>
     </RelativeLayout>
 
     <TextView
