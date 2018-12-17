@@ -17,9 +17,9 @@
             style="@android:style/Widget.Material.ImageButton"
             android:layout_width="310dp"
             android:layout_height="365dp"
-            android:layout_alignParentBottom="true"
+            android:layout_above="@+id/btnReset"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="168dp"
+            android:layout_marginBottom="60dp"
             android:background="@drawable/ic_launcher_foreground"
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/buletantasbih"
@@ -35,7 +35,7 @@
             android:layout_marginTop="34dp"
             android:layout_toStartOf="@+id/ibTambahTasbih"
             android:text="0"
-            android:textSize="20dp" />
+            android:textSize="15dp" />
 
         <Button
             android:id="@+id/btnReset"
@@ -52,10 +52,18 @@
             android:layout_height="wrap_content"
             android:layout_alignBaseline="@+id/tvTasbihkelipatan"
             android:layout_alignBottom="@+id/tvTasbihkelipatan"
-            android:layout_alignStart="@+id/ibTambahTasbih"
-            android:layout_marginStart="6dp"
-            android:text="Kali Putaran"
-            android:textSize="20dp"/>
+            android:layout_toStartOf="@+id/textView11"
+            android:text="Kali Putaran 33x"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ibTambahTasbih"
+            android:layout_alignStart="@+id/btnReset"
+            android:layout_marginBottom="36dp"
+            android:text="Klik untuk mulai." />
     </RelativeLayout>
 
     <TextView
