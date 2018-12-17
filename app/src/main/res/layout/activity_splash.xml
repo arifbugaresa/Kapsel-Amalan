@@ -17,7 +17,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="273dp"
             android:layout_weight="1"
-            android:src="@drawable/logo"
+            android:src="@drawable/logo_tulisan"
             tools:layout_editor_absoluteX="120dp"
             tools:layout_editor_absoluteY="270dp" />
 
