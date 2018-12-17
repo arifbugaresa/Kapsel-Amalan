@@ -11,7 +11,7 @@ public class TasbihActivity extends AppCompatActivity {
 
     //deklarasi tombol
     private ImageButton Counter;
-    int qty=0;
+    int qty=0,putaran=-1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,8 +30,25 @@ public class TasbihActivity extends AppCompatActivity {
 
              //padadang
 
+                if (qty==0)
+                {
+                    putaran=putaran+1;
+                }
+
                 qty = qty + 1;
+
                 display(qty);
+
+
+                if (qty>=33)
+                {
+                    qty=0;
+                }
+
+
+
+                TextView kelipatan = (TextView) findViewById(R.id.tvTasbihkelipatan);
+                kelipatan.setText(""+putaran);
             }
 
             private void display(int number) {
