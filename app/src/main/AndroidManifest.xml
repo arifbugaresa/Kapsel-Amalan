@@ -10,16 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".HomeActivity">
+
+
+        </activity>
+        <activity android:name=".TasbihActivity" />
+        <activity android:name=".ZikirpagiActivity" />
+        <activity android:name=".ZikirpetangActivity" />
+        <activity android:name=".ZikirsebelumtidurActivity" />
+
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TasbihActivity" />
-        <activity android:name=".ZikirpagiActivity" />
-        <activity android:name=".ZikirpetangActivity" />
-        <activity android:name=".ZikirsebelumtidurActivity"></activity>
     </application>
 
 </manifest>
