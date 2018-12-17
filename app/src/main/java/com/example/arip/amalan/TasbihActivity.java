@@ -6,11 +6,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Button;
 
 public class TasbihActivity extends AppCompatActivity {
 
     //deklarasi tombol
     private ImageButton Counter;
+    private Button reset;
+
     int qty=0,putaran=-1;
 
     @Override
@@ -20,6 +23,9 @@ public class TasbihActivity extends AppCompatActivity {
 
         //inisialisasi Imagetombol
         Counter = (ImageButton)findViewById(R.id.ibTambahTasbih);
+
+        //inisialisasi button
+        reset = (Button)findViewById(R.id.btnReset);
 
         //fungsi Imagetombol
         Counter.setOnClickListener(new View.OnClickListener()
@@ -54,6 +60,23 @@ public class TasbihActivity extends AppCompatActivity {
             private void display(int number) {
                 TextView jumlah = (TextView) findViewById(R.id.tvTasbih);
                 jumlah.setText(""+number);
+            }
+        });
+
+        //tombol reset diklik
+        reset.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                qty = 0;
+                putaran = -1;
+
+                //ngebuat tampilkan putaran 0
+                TextView kelipatan = (TextView) findViewById(R.id.tvTasbihkelipatan);
+                kelipatan.setText("0");
+
+                //buat tampilan jumlahnya 0
+                TextView jumlah = (TextView) findViewById(R.id.tvTasbih);
+                jumlah.setText("0");
             }
         });
 

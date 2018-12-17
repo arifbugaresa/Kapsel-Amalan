@@ -9,8 +9,8 @@
     <RelativeLayout
         android:layout_width="395dp"
         android:layout_height="715dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="-11dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <ImageButton
             android:id="@+id/ibTambahTasbih"
@@ -31,9 +31,30 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="75dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="34dp"
+            android:layout_toStartOf="@+id/ibTambahTasbih"
             android:text="0"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="57dp"
+            android:text="Reset" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvTasbihkelipatan"
+            android:layout_alignBottom="@+id/tvTasbihkelipatan"
+            android:layout_alignStart="@+id/ibTambahTasbih"
+            android:layout_marginStart="6dp"
+            android:text="Kali Putaran"
             android:textSize="20dp"/>
     </RelativeLayout>
 
