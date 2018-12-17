@@ -18,7 +18,9 @@
         <activity android:name=".ZikirpetangActivity" />
         <activity android:name=".ZikirsebelumtidurActivity" />
 
-        <activity android:name=".SplashActivity">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppThemeSplash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
