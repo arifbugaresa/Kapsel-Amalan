@@ -1,23 +1,20 @@
 package com.example.arip.amalan;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.content.Intent;
 import android.view.View;
-import android.widget.ImageButton;
 import android.widget.Button;
 
-
-public class ZikirpagiActivity extends AppCompatActivity {
+public class annaaspagiActivity extends AppCompatActivity {
 
     //deklaraasi tombol
     private Button lanjut;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_zikirpagi);
+        setContentView(R.layout.activity_annaaspagi);
 
         //inisialisasi Imagetombol
         lanjut = (Button)findViewById(R.id.mulai);
@@ -27,10 +24,9 @@ public class ZikirpagiActivity extends AppCompatActivity {
             @Override
             public void onClick(View v)
             {
-                Intent intent = new Intent(getApplicationContext(), ayatkursipagiActivity.class);
+                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
                 startActivity(intent);
             }
         });
-
     }
 }

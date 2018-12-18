@@ -7,30 +7,27 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.Button;
 
-
-public class ZikirpagiActivity extends AppCompatActivity {
+public class ayatkursipagiActivity extends AppCompatActivity {
 
     //deklaraasi tombol
     private Button lanjut;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_zikirpagi);
+        setContentView(R.layout.activity_ayatkursipagi);
 
         //inisialisasi Imagetombol
-        lanjut = (Button)findViewById(R.id.mulai);
+       lanjut = (Button)findViewById(R.id.mulai);
         //fungsi tombol
         lanjut.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
             {
-                Intent intent = new Intent(getApplicationContext(), ayatkursipagiActivity.class);
+                Intent intent = new Intent(getApplicationContext(), alikhlaspagiActivity.class);
                 startActivity(intent);
             }
         });
-
     }
 }
