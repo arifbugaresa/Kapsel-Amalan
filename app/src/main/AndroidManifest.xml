@@ -16,6 +16,10 @@
         <activity android:name=".ZikirpagiActivity" />
         <activity android:name=".ZikirpetangActivity" />
         <activity android:name=".ZikirsebelumtidurActivity" />
+        <activity android:name=".ayatkursipagiActivity"/>
+        <activity android:name=".alfalaqpagiActivity"/>
+        <activity android:name=".alikhlaspagiActivity"/>
+        <activity android:name=".annaaspagiActivity"/>
 
         <activity
             android:name=".SplashActivity"
