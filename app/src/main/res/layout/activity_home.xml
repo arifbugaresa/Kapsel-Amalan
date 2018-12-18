@@ -30,6 +30,7 @@
             android:layout_alignStart="@+id/textView"
             android:layout_below="@+id/imageView"
             android:layout_marginTop="30dp"
+            android:background="@drawable/ic_launcher_foreground"
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/tasbihcount"
             tools:layout_editor_absoluteX="225dp"
