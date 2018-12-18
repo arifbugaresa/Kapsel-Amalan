@@ -38,18 +38,9 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            app:srcCompat="@drawable/ayatkursi"
+            app:srcCompat="@drawable/alfalaq"
             tools:layout_editor_absoluteX="25dp"
             tools:layout_editor_absoluteY="480dp" />
-
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/button"
-            android:layout_alignParentStart="true"
-            android:layout_marginBottom="16dp"
-            app:srcCompat="@drawable/artiayat" />
 
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
