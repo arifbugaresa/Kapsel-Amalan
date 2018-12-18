@@ -34,7 +34,6 @@
             app:srcCompat="@drawable/tasbihcount"
             tools:layout_editor_absoluteX="225dp"
             tools:layout_editor_absoluteY="506dp" />
-
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
@@ -48,9 +47,9 @@
             android:id="@+id/ibZikirpagi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView3"
             android:layout_alignEnd="@+id/textView"
-            android:layout_alignTop="@+id/ibTasbih"
-            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="11dp"
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <TextView
