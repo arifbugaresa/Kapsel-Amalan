@@ -64,6 +64,15 @@
             android:layout_alignStart="@+id/btnReset"
             android:layout_marginBottom="36dp"
             android:text="Klik untuk mulai." />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ibTambahTasbih"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="102dp"
+            android:text="klik disini" />
     </RelativeLayout>
 
     <TextView
