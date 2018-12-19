@@ -97,7 +97,7 @@
             android:layout_below="@+id/textView4"
             android:background="@drawable/ic_launcher_foreground"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/bagi"
+            app:srcCompat="@drawable/help"
             tools:layout_editor_absoluteX="225dp"
             tools:layout_editor_absoluteY="506dp" />
 
@@ -105,9 +105,9 @@
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/textView"
+            android:layout_alignEnd="@+id/textView4"
             android:layout_below="@+id/ibzikirsebelumtidur"
-            android:text="Jadikan Amal Jariyah" />
+            android:text="Bantuan" />
 
         <TextView
             android:id="@+id/textView"
