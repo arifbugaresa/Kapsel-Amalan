@@ -5,11 +5,45 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.arip.amalan.annaaspagiActivity">
+
+
     <RelativeLayout
         android:layout_width="395dp"
         android:layout_height="678dp"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="337dp"
+            android:layout_height="304dp"
+            android:layout_below="@+id/textView8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="26dp"
+            app:srcCompat="@drawable/annas"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="124dp" />
+
+        <ImageButton
+            android:id="@+id/ibikhlas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView8"
+            android:layout_marginTop="418dp"
+            android:background="@drawable/bg"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/buletantasbih" />
+
+        <TextView
+            android:id="@+id/tvinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/ibikhlas"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="44dp"
+            android:text="0/3"
+            android:textSize="45dp" />
 
         <TextView
             android:id="@+id/textView8"
@@ -21,18 +55,14 @@
             android:text="Membaca  An Naas 3x"
             android:textSize="15dp" />
 
-
-        
-
-        <ImageView
-            android:id="@+id/imageView2"
+        <TextView
+            android:id="@+id/textView15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            app:srcCompat="@drawable/annas"
-            tools:layout_editor_absoluteX="25dp"
-            tools:layout_editor_absoluteY="480dp" />
+            android:layout_above="@+id/tvinfo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="12dp"
+            android:text="Klik untuk mulai." />
 
 
     </RelativeLayout>
