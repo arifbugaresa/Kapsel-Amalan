@@ -35,7 +35,7 @@ public class annaaspagiActivity extends AppCompatActivity {
 
                 if (qty>=3)
                 {
-                    Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+                    Intent intent = new Intent(getApplicationContext(), SelesaiBacaActivity.class);
                     startActivity(intent);
                 }
 

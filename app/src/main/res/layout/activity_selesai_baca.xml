@@ -6,4 +6,44 @@
     android:layout_height="match_parent"
     tools:context="com.example.arip.amalan.SelesaiBacaActivity">
 
+
+    <RelativeLayout
+        android:layout_width="395dp"
+        android:layout_height="772dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:layout_above="@+id/textView16"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="41dp"
+            app:srcCompat="@drawable/check"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="233dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="62dp"
+            android:layout_height="164dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="158dp"
+            android:text="Mantap!"
+            tools:layout_editor_absoluteX="-5dp"
+            tools:layout_editor_absoluteY="61dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView9"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="18dp"
+            android:text="Anda telah selesai berzikir" />
+
+    </RelativeLayout>
+
 </android.support.constraint.ConstraintLayout>

@@ -9,18 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HomeActivity">
-
-        </activity>
+        <activity android:name=".HomeActivity"></activity>
         <activity android:name=".TasbihActivity" />
         <activity android:name=".ZikirpagiActivity" />
         <activity android:name=".ZikirpetangActivity" />
         <activity android:name=".ZikirsebelumtidurActivity" />
-        <activity android:name=".ayatkursipagiActivity"/>
-        <activity android:name=".alfalaqpagiActivity"/>
-        <activity android:name=".alikhlaspagiActivity"/>
-        <activity android:name=".annaaspagiActivity"/>
-
+        <activity android:name=".ayatkursipagiActivity" />
+        <activity android:name=".alfalaqpagiActivity" />
+        <activity android:name=".alikhlaspagiActivity" />
+        <activity android:name=".annaaspagiActivity" />
         <activity
             android:name=".SplashActivity"
             android:theme="@style/AppThemeSplash">
@@ -30,6 +27,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SelesaiBacaActivity"
+            android:theme="@style/AppThemeSplash"></activity>
     </application>
 
 </manifest>
