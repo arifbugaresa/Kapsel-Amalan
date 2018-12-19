@@ -25,8 +25,8 @@ public class SelesaiBacaActivity extends AppCompatActivity {
                 } catch (Exception e){
                     System.out.println("EXc=" + e);
                 } finally {
-                    Intent intent = new Intent(SelesaiBacaActivity.this,HomeActivity.class);
-                    finish();
+                    Intent intent = new Intent(SelesaiBacaActivity.this,SplashActivity.class);
+                    finishAffinity();
                     startActivity(intent);
                 }
             }
