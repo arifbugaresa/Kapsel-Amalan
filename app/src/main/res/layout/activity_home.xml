@@ -93,7 +93,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/textView4"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="46dp"
+            android:layout_marginTop="60dp"
             android:text='"Orang-orang yang beriman dan hati mereka menjadi tenteram dengan berzikir (mengingat) Allah. Ingatlah, hanya dengan mengingat Allah hati menjadi tenteram"'
             android:textAlignment="center"
             tools:layout_editor_absoluteX="45dp"
