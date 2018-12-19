@@ -9,15 +9,33 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HomeActivity"></activity>
-        <activity android:name=".TasbihActivity" />
-        <activity android:name=".ZikirpagiActivity" />
-        <activity android:name=".ZikirpetangActivity" />
-        <activity android:name=".ZikirsebelumtidurActivity" />
-        <activity android:name=".ayatkursipagiActivity" />
-        <activity android:name=".alfalaqpagiActivity" />
-        <activity android:name=".alikhlaspagiActivity" />
-        <activity android:name=".annaaspagiActivity" />
+        <activity android:name=".HomeActivity"
+            android:theme="@style/AppThemeFull"></activity>
+
+        <activity android:name=".TasbihActivity"
+            android:theme="@style/AppThemeTasbih"
+            android:label="@string/secondary_nametasbih"
+            />
+
+        <activity android:name=".ZikirpagiActivity"
+            android:label="Zikir Pagi"/>
+
+        <activity android:name=".ZikirpetangActivity"
+            android:label="Zikir Malam"/>
+
+
+        <activity android:name=".ZikirsebelumtidurActivity"
+            android:label="Bantuan"/>
+
+        <activity android:name=".ayatkursipagiActivity"
+            android:label="Zikir"/>
+        <activity android:name=".alfalaqpagiActivity"
+            android:label="Zikir"/>
+        <activity android:name=".alikhlaspagiActivity"
+            android:label="Zikir"/>
+        <activity android:name=".annaaspagiActivity"
+            android:label="Zikir"/>
+
         <activity
             android:name=".SplashActivity"
             android:theme="@style/AppThemeSplash">
