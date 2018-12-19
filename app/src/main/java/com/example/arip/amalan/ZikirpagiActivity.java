@@ -20,7 +20,8 @@ public class ZikirpagiActivity extends AppCompatActivity {
         setContentView(R.layout.activity_zikirpagi);
 
         //inisialisasi Imagetombol
-        lanjut = (Button)findViewById(R.id.mulai);
+        lanjut = (Button)findViewById(R.id.skip);
+
         //fungsi tombol
         lanjut.setOnClickListener(new View.OnClickListener()
         {

@@ -9,8 +9,7 @@ import android.widget.Button;
 
 public class alfalaqpagiActivity extends AppCompatActivity {
 
-    //deklaraasi tombol
-    private Button lanjut;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,17 +17,6 @@ public class alfalaqpagiActivity extends AppCompatActivity {
         setContentView(R.layout.activity_alfalaqpagi);
 
 
-        //inisialisasi Imagetombol
-        lanjut = (Button)findViewById(R.id.mulai);
-        //fungsi tombol
-        lanjut.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                Intent intent = new Intent(getApplicationContext(), annaaspagiActivity.class);
-                startActivity(intent);
-            }
-        });
+
     }
 }

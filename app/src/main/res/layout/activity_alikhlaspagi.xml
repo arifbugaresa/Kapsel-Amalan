@@ -12,6 +12,38 @@
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp">
 
+        <ImageButton
+            android:id="@+id/ibikhlas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView2"
+            android:layout_marginTop="166dp"
+            android:background="@drawable/bg"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/buletantasbih" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="293dp"
+            android:layout_height="214dp"
+            android:layout_below="@+id/textView8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            app:srcCompat="@drawable/alikhlas"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="233dp" />
+
+        <TextView
+            android:id="@+id/tvinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/ibikhlas"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="44dp"
+            android:text="0/3"
+            android:textSize="45dp" />
+
         <TextView
             android:id="@+id/textView8"
             android:layout_width="wrap_content"
@@ -22,26 +54,14 @@
             android:text="Membaca  Al Ikhlas 3x"
             android:textSize="15dp" />
 
-
-        <Button
-            android:id="@+id/mulai"
+        <TextView
+            android:id="@+id/textView15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
+            android:layout_above="@+id/tvinfo"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="84dp"
-            android:text="lanjut" />
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/mulai"
-            android:layout_alignParentStart="true"
-            android:layout_marginBottom="28dp"
-            app:srcCompat="@drawable/alikhlas"
-            tools:layout_editor_absoluteX="25dp"
-            tools:layout_editor_absoluteY="480dp" />
+            android:layout_marginBottom="12dp"
+            android:text="Klik untuk mulai." />
 
 
     </RelativeLayout>
